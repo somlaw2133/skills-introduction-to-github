@@ -38,3 +38,5 @@ Thumbs.db
 /obj/*
 /bin/*
 
+/code/obj
+/.vs/skills-introduction-to-github/FileContentIndex
