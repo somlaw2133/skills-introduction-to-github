@@ -42,3 +42,53 @@ no changes added to commit (use "git add" and/or "git commit -a")
 ]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine [feature/OK-AtmMachine +1 ~9 -0 !]> ]633;B
 PS>git add .
 ]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine [feature/OK-AtmMachine +13 ~0 -0 | +0 ~10 -0 !]> ]633;B
+PS>git commit -m "Add new project files for our ATM"
+[feature/OK-AtmMachine 3fff119] Add new project files for our ATM
+ 22 files changed, 641 insertions(+), 85 deletions(-)
+ create mode 100644 TellerMachine/Docs/GitCommands/transcript.txt
+ create mode 100644 TellerMachine/Docs/transcript.txt
+ create mode 100644 TellerMachine/Machine.CheckBalance/CheckBalance.csproj
+ create mode 100644 TellerMachine/Machine.CheckBalance/Class1.cs
+ create mode 100644 TellerMachine/Machine.Console/Program.cs
+ create mode 100644 TellerMachine/Machine.Console/PromptDisplay.csproj
+ create mode 100644 TellerMachine/Machine.Deposit/Class1.cs
+ create mode 100644 TellerMachine/Machine.Deposit/Deposit.csproj
+ create mode 100644 TellerMachine/Machine.Shared/Class1.cs
+ create mode 100644 TellerMachine/Machine.Shared/Utilities.csproj
+ create mode 100644 TellerMachine/Machine.Withdraw/Class1.cs
+ create mode 100644 TellerMachine/Machine.Withdraw/Withdrawal.csproj
+ create mode 100644 TellerMachine/TellerMachine.sln
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine [feature/OK-AtmMachine +0 ~1 -0 !]> ]633;B
+PS>git push
+fatal: The current branch feature/OK-AtmMachine has no upstream branch.
+fatal: The current branch feature/OK-AtmMachine has no upstream branch.
+To push the current branch and set the remote as upstream, use
+To push the current branch and set the remote as upstream, use
+
+
+    git push --set-upstream origin feature/OK-AtmMachine
+    git push --set-upstream origin feature/OK-AtmMachine
+
+
+To have this happen automatically for branches without a tracking
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+]633;D;1]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine [feature/OK-AtmMachine +0 ~1 -0 !]> ]633;B
+PS>git push --set-upstream origin feature/OK-AtmMachine
+remote:
+remote: 
+remote: Create a pull request for 'feature/OK-AtmMachine' on GitHub by visiting:
+remote: Create a pull request for 'feature/OK-AtmMachine' on GitHub by visiting:        
+remote:      https://github.com/somlaw2133/skills-introduction-to-github/pull/new/feature/OK-AtmMachine
+remote:      https://github.com/somlaw2133/skills-introduction-to-github/pull/new/feature/OK-AtmMachine        
+remote:
+remote: 
+To https://github.com/somlaw2133/skills-introduction-to-github.git
+To https://github.com/somlaw2133/skills-introduction-to-github.git
+ * [new branch]      feature/OK-AtmMachine -> feature/OK-AtmMachine
+ * [new branch]      feature/OK-AtmMachine -> feature/OK-AtmMachine
+branch 'feature/OK-AtmMachine' set up to track 'origin/feature/OK-AtmMachine'.
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine [feature/OK-AtmMachine ≡ +0 ~1 -0 | +0 ~1 -0 !]> ]633;B
