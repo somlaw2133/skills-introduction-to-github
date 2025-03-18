@@ -1,0 +1,44 @@
+**********************
+PowerShell transcript start
+Start time: 20250318113249
+Username: macos-PF9496XW1K\tkareem
+RunAs User: macos-PF9496XW1K\tkareem
+Configuration Name: 
+Machine: macos-PF9496XW1K (Unix 15.3.1)
+Host Application: /usr/local/Cellar/powershell/7.4.6/libexec/pwsh.dll -noexit -command . "/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration.ps1"
+Process ID: 5031
+PSVersion: 7.4.6
+PSEdition: Core
+GitCommitId: 7.4.6
+OS: Darwin 24.3.0 Darwin Kernel Version 24.3.0: Thu Jan  2 20:24:16 PST 2025; root:xnu-11215.81.4~3/RELEASE_ARM64_T6000
+Platform: Unix
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is /Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Docs/GitCommands/transcript.txt
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine [feature/OK-AtmMachine +1 ~9 -0 !]> ]633;B
+PS>git status
+On branch feature/OK-AtmMachine
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   ../.gitignore
+	modified:   ../code/obj/Debug/net8.0/code.AssemblyInfo.cs
+	modified:   ../code/obj/Debug/net8.0/code.AssemblyInfoInputs.cache
+	modified:   ../code/obj/Debug/net8.0/code.GeneratedMSBuildEditorConfig.editorconfig
+	modified:   ../code/obj/Debug/net8.0/code.assets.cache
+	modified:   ../code/obj/code.csproj.nuget.dgspec.json
+	modified:   ../code/obj/code.csproj.nuget.g.props
+	modified:   ../code/obj/project.assets.json
+	modified:   ../code/obj/project.nuget.cache
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	./
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine [feature/OK-AtmMachine +1 ~9 -0 !]> ]633;B
+PS>git add .
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine [feature/OK-AtmMachine +13 ~0 -0 | +0 ~10 -0 !]> ]633;B
