@@ -1,0 +1,99 @@
+**********************
+PowerShell transcript start
+Start time: 20250318113249
+Username: macos-PF9496XW1K\tkareem
+RunAs User: macos-PF9496XW1K\tkareem
+Configuration Name: 
+Machine: macos-PF9496XW1K (Unix 15.3.1)
+Host Application: /usr/local/Cellar/powershell/7.4.6/libexec/pwsh.dll -noexit -command . "/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration.ps1"
+Process ID: 5031
+PSVersion: 7.4.6
+PSEdition: Core
+GitCommitId: 7.4.6
+OS: Darwin 24.3.0 Darwin Kernel Version 24.3.0: Thu Jan  2 20:24:16 PST 2025; root:xnu-11215.81.4~3/RELEASE_ARM64_T6000
+Platform: Unix
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is /Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Docs/GitCommands/transcript.txt
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine [feature/OK-AtmMachine +1 ~9 -0 !]> ]633;B
+PS>git status
+On branch feature/OK-AtmMachine
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   ../.gitignore
+	modified:   ../code/obj/Debug/net8.0/code.AssemblyInfo.cs
+	modified:   ../code/obj/Debug/net8.0/code.AssemblyInfoInputs.cache
+	modified:   ../code/obj/Debug/net8.0/code.GeneratedMSBuildEditorConfig.editorconfig
+	modified:   ../code/obj/Debug/net8.0/code.assets.cache
+	modified:   ../code/obj/code.csproj.nuget.dgspec.json
+	modified:   ../code/obj/code.csproj.nuget.g.props
+	modified:   ../code/obj/project.assets.json
+	modified:   ../code/obj/project.nuget.cache
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	./
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine [feature/OK-AtmMachine +1 ~9 -0 !]> ]633;B
+PS>git add .
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine [feature/OK-AtmMachine +13 ~0 -0 | +0 ~10 -0 !]> ]633;B
+PS>git commit -m "Add new project files for our ATM"
+[feature/OK-AtmMachine 3fff119] Add new project files for our ATM
+ 22 files changed, 641 insertions(+), 85 deletions(-)
+ create mode 100644 TellerMachine/Docs/GitCommands/transcript.txt
+ create mode 100644 TellerMachine/Docs/transcript.txt
+ create mode 100644 TellerMachine/Machine.CheckBalance/CheckBalance.csproj
+ create mode 100644 TellerMachine/Machine.CheckBalance/Class1.cs
+ create mode 100644 TellerMachine/Machine.Console/Program.cs
+ create mode 100644 TellerMachine/Machine.Console/PromptDisplay.csproj
+ create mode 100644 TellerMachine/Machine.Deposit/Class1.cs
+ create mode 100644 TellerMachine/Machine.Deposit/Deposit.csproj
+ create mode 100644 TellerMachine/Machine.Shared/Class1.cs
+ create mode 100644 TellerMachine/Machine.Shared/Utilities.csproj
+ create mode 100644 TellerMachine/Machine.Withdraw/Class1.cs
+ create mode 100644 TellerMachine/Machine.Withdraw/Withdrawal.csproj
+ create mode 100644 TellerMachine/TellerMachine.sln
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine [feature/OK-AtmMachine +0 ~1 -0 !]> ]633;B
+PS>git push
+fatal: The current branch feature/OK-AtmMachine has no upstream branch.
+fatal: The current branch feature/OK-AtmMachine has no upstream branch.
+To push the current branch and set the remote as upstream, use
+To push the current branch and set the remote as upstream, use
+
+
+    git push --set-upstream origin feature/OK-AtmMachine
+    git push --set-upstream origin feature/OK-AtmMachine
+
+
+To have this happen automatically for branches without a tracking
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+]633;D;1]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine [feature/OK-AtmMachine +0 ~1 -0 !]> ]633;B
+PS>git push --set-upstream origin feature/OK-AtmMachine
+remote:
+remote: 
+remote: Create a pull request for 'feature/OK-AtmMachine' on GitHub by visiting:
+remote: Create a pull request for 'feature/OK-AtmMachine' on GitHub by visiting:        
+remote:      https://github.com/somlaw2133/skills-introduction-to-github/pull/new/feature/OK-AtmMachine
+remote:      https://github.com/somlaw2133/skills-introduction-to-github/pull/new/feature/OK-AtmMachine        
+remote:
+remote: 
+To https://github.com/somlaw2133/skills-introduction-to-github.git
+To https://github.com/somlaw2133/skills-introduction-to-github.git
+ * [new branch]      feature/OK-AtmMachine -> feature/OK-AtmMachine
+ * [new branch]      feature/OK-AtmMachine -> feature/OK-AtmMachine
+branch 'feature/OK-AtmMachine' set up to track 'origin/feature/OK-AtmMachine'.
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine [feature/OK-AtmMachine ≡ +0 ~1 -0 | +0 ~1 -0 !]> ]633;B
+PS>Stop-Transcript
+**********************
+PowerShell transcript end
+End time: 20250318113511
+**********************

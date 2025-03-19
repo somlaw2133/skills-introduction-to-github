@@ -1,0 +1,135 @@
+**********************
+PowerShell transcript start
+Start time: 20250318111938
+Username: macos-PF9496XW1K\tkareem
+RunAs User: macos-PF9496XW1K\tkareem
+Configuration Name: 
+Machine: macos-PF9496XW1K (Unix 15.3.1)
+Host Application: /usr/local/Cellar/powershell/7.4.6/libexec/pwsh.dll -noexit -command . "/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration.ps1"
+Process ID: 5031
+PSVersion: 7.4.6
+PSEdition: Core
+GitCommitId: 7.4.6
+OS: Darwin 24.3.0 Darwin Kernel Version 24.3.0: Thu Jan  2 20:24:16 PST 2025; root:xnu-11215.81.4~3/RELEASE_ARM64_T6000
+Platform: Unix
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is /Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Docs/transcript.txt
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine [feature/OK-AtmMachine +1 ~8 -0 !]> ]633;B
+PS>dotnet new console -n PromptDisplay  -o Machine.Console
+The template "Console App" was created successfully.
+
+Processing post-creation actions...
+Restoring /Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Machine.Console/PromptDisplay.csproj:
+  Determining projects to restore...
+  Restored /Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Machine.Console/PromptDisplay.csproj (in 37 ms).
+Restore succeeded.
+
+
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine [feature/OK-AtmMachine +1 ~8 -0 !]> ]633;B
+]633;D]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine [feature/OK-AtmMachine +1 ~8 -0 !]> ]633;B
+PS>dotnet new sln
+The template "Solution File" was created successfully.
+
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine [feature/OK-AtmMachine +1 ~8 -0 !]> ]633;B
+PS>dotnet sln add ./Machine.Console/PromptDisplay.csproj
+Project `Machine.Console/PromptDisplay.csproj` added to the solution.
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine [feature/OK-AtmMachine +1 ~8 -0 !]> ]633;B
+PS>ls
+Docs
+Machine.Console
+TellerMachine.sln
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine [feature/OK-AtmMachine +1 ~8 -0 !]> ]633;B
+PS>dotnet run
+Couldn't find a project to run. Ensure a project exists in /Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine, or pass the path to the project using --project.
+Couldn't find a project to run. Ensure a project exists in /Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine, or pass the path to the project using --project.
+]633;D;1]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine [feature/OK-AtmMachine +1 ~8 -0 !]> ]633;B
+]633;D]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine [feature/OK-AtmMachine +1 ~8 -0 !]> ]633;B
+PS>cd ./Machine.Console/
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Machine.Console~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Machine.Console [feature/OK-AtmMachine +1 ~8 -0 !]> ]633;B
+PS>ls
+Program.cs
+PromptDisplay.csproj
+obj
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Machine.Console~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Machine.Console [feature/OK-AtmMachine +1 ~8 -0 !]> ]633;B
+PS>dotnet run
+Hello, World!
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Machine.Console~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Machine.Console [feature/OK-AtmMachine +1 ~8 -0 !]> ]633;B
+PS>clear
+[3J[H[2J
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Machine.Console~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Machine.Console [feature/OK-AtmMachine +1 ~8 -0 !]> ]633;B
+PS>cd ..
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine [feature/OK-AtmMachine +1 ~8 -0 !]> ]633;B
+PS>dotnet new classlib -n Withdrawal -o Machine.Withdraw
+The template "Class Library" was created successfully.
+
+Processing post-creation actions...
+Restoring /Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Machine.Withdraw/Withdrawal.csproj:
+  Determining projects to restore...
+  Restored /Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Machine.Withdraw/Withdrawal.csproj (in 33 ms).
+Restore succeeded.
+
+
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine [feature/OK-AtmMachine +1 ~8 -0 !]> ]633;B
+PS>dotnet new classlib -n Deposit -o Machine.Deposit
+The template "Class Library" was created successfully.
+
+Processing post-creation actions...
+Restoring /Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Machine.Deposit/Deposit.csproj:
+  Determining projects to restore...
+  Restored /Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Machine.Deposit/Deposit.csproj (in 32 ms).
+Restore succeeded.
+
+
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine [feature/OK-AtmMachine +1 ~8 -0 !]> ]633;B
+PS>dotnet new classlib -n CheckBalance -o Machine.CheckBalance
+The template "Class Library" was created successfully.
+
+Processing post-creation actions...
+Restoring /Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Machine.CheckBalance/CheckBalance.csproj:
+  Determining projects to restore...
+  Restored /Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Machine.CheckBalance/CheckBalance.csproj (in 38 ms).
+Restore succeeded.
+
+
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine [feature/OK-AtmMachine +1 ~8 -0 !]> ]633;B
+PS>dotnet new classlib -n Utilities -o Machine.Shared
+The template "Class Library" was created successfully.
+
+Processing post-creation actions...
+Restoring /Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Machine.Shared/Utilities.csproj:
+  Determining projects to restore...
+  Restored /Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Machine.Shared/Utilities.csproj (in 33 ms).
+Restore succeeded.
+
+
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine [feature/OK-AtmMachine +1 ~8 -0 !]> ]633;B
+PS>dotnet sln add ./Machine.CheckBalance/CheckBalance.csproj
+Project `Machine.CheckBalance/CheckBalance.csproj` added to the solution.
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine [feature/OK-AtmMachine +1 ~8 -0 !]> ]633;B
+PS>dotnet sln add ./Machine.Deposit/Deposit.csproj
+Project `Machine.Deposit/Deposit.csproj` added to the solution.
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine [feature/OK-AtmMachine +1 ~8 -0 !]> ]633;B
+PS>dotnet sln add ./Machine.Shared/Utilities.csproj
+Project `Machine.Shared/Utilities.csproj` added to the solution.
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine [feature/OK-AtmMachine +1 ~8 -0 !]> ]633;B
+PS>dotnet sln add ./Machine.Withdraw/Withdrawal.csproj
+Project `Machine.Withdraw/Withdrawal.csproj` added to the solution.
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine [feature/OK-AtmMachine +1 ~8 -0 !]> ]633;B
+PS>dotnet sln list
+Project(s)
+----------
+Machine.CheckBalance/CheckBalance.csproj
+Machine.Console/PromptDisplay.csproj
+Machine.Deposit/Deposit.csproj
+Machine.Shared/Utilities.csproj
+Machine.Withdraw/Withdrawal.csproj
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine [feature/OK-AtmMachine +1 ~8 -0 !]> ]633;B
+PS>Stop-Transcript
+**********************
+PowerShell transcript end
+End time: 20250318112622
+**********************
