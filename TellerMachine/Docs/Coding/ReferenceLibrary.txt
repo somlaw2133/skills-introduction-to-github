@@ -1,0 +1,179 @@
+**********************
+PowerShell transcript start
+Start time: 20250321121258
+Username: macos-PF9496XW1K\tkareem
+RunAs User: macos-PF9496XW1K\tkareem
+Configuration Name: 
+Machine: macos-PF9496XW1K (Unix 15.3.1)
+Host Application: /usr/local/Cellar/powershell/7.4.6/libexec/pwsh.dll -noexit -command . "/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration.ps1"
+Process ID: 90182
+PSVersion: 7.4.6
+PSEdition: Core
+GitCommitId: 7.4.6
+OS: Darwin 24.3.0 Darwin Kernel Version 24.3.0: Thu Jan  2 20:24:16 PST 2025; root:xnu-11215.81.4~3/RELEASE_ARM64_T6000
+Platform: Unix
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is ./Docs/Coding/ReferenceLibrary.txt
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine [feature/Ok-Implementations +4 ~0 -1 !]> ]633;B
+PS>ls
+Docs
+Machine.CheckBalance
+Machine.Console
+Machine.Deposit
+Machine.Shared
+Machine.Withdraw
+TellerMachine.sln
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine [feature/Ok-Implementations +4 ~0 -1 !]> ]633;B
+PS>dotnet add package -h
+Description:
+  Add a NuGet package reference to the project.
+
+Usage:
+  dotnet add [<PROJECT>] package <PACKAGE_NAME> [options]
+
+Arguments:
+  <PROJECT>       The project file to operate on. If a file is not specified, the command will search the current directory for one. [default:
+                  /Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/]
+  <PACKAGE_NAME>  The package reference to add.
+
+Options:
+  -v, --version <VERSION>            The version of the package to add.
+  -f, --framework <FRAMEWORK>        Add the reference only when targeting a specific framework.
+  -n, --no-restore                   Add the reference without performing restore preview and compatibility check.
+  -s, --source <SOURCE>              The NuGet package source to use during the restore.
+  --package-directory <PACKAGE_DIR>  The directory to restore packages to.
+  --interactive                      Allows the command to stop and wait for user input or action (for example to complete authentication).
+  --prerelease                       Allows prerelease packages to be installed.
+  -?, -h, --help                     Show command line help.
+
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine [feature/Ok-Implementations +4 ~0 -1 !]> ]633;B
+PS>dotnet add -h
+Description:
+  .NET Add Command
+
+Usage:
+  dotnet add [<PROJECT>] [command] [options]
+
+Arguments:
+  <PROJECT>  The project file to operate on. If a file is not specified, the command will search the current directory for one. [default:
+             /Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/]
+
+Options:
+  -?, -h, --help  Show command line help.
+
+Commands:
+  package <PACKAGE_NAME>    Add a NuGet package reference to the project.
+  reference <PROJECT_PATH>  Add a project-to-project reference to the project.
+
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine [feature/Ok-Implementations +4 ~0 -1 !]> ]633;B
+PS>dotnet add reference -h
+Description:
+  Add a project-to-project reference to the project.
+
+Usage:
+  dotnet add [<PROJECT>] reference <PROJECT_PATH>... [options]
+
+Arguments:
+  <PROJECT>       The project file to operate on. If a file is not specified, the command will search the current directory for one. [default:
+                  /Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/]
+  <PROJECT_PATH>  The paths to the projects to add as references.
+
+Options:
+  -f, --framework <FRAMEWORK>  Add the reference only when targeting a specific framework.
+  --interactive                Allows the command to stop and wait for user input or action (for example to complete authentication).
+  -?, -h, --help               Show command line help.
+
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine [feature/Ok-Implementations +4 ~0 -1 !]> ]633;B
+PS>ls
+Docs
+Machine.CheckBalance
+Machine.Console
+Machine.Deposit
+Machine.Shared
+Machine.Withdraw
+TellerMachine.sln
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine [feature/Ok-Implementations +4 ~0 -1 !]> ]633;B
+PS>dotnet add ./Machine.Console/PromptDisplay.csproj reference ./Machine.Shared/Utilities.csproj
+Reference `..\Machine.Shared\Utilities.csproj` added to the project.
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine [feature/Ok-Implementations +4 ~1 -1 !]> ]633;B
+PS>cd ./Machine.Console/
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Machine.Console~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Machine.Console [feature/Ok-Implementations +4 ~2 -1 !]> ]633;B
+PS>dotnet run
+Welcome to Bank of Lawrence. How May I assist you today
+Please Check the following options perform operations
+... Please, choose 1 for Deposit
+... Please, choose 2 for Withdraw
+... Please, choose 3 for Check Balance
+... Please, choose 4 for Transfer
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Machine.Console~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Machine.Console [feature/Ok-Implementations +4 ~2 -1 !]> ]633;B
+PS>git status
+On branch feature/Ok-Implementations
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   Program.cs
+	modified:   PromptDisplay.csproj
+	deleted:    ../Machine.Shared/Class1.cs
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../Docs/Coding/
+	UserScreen.cs
+	../Machine.Shared/MessageDisplay.cs
+	../Machine.Shared/TransactionOptions.cs
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Machine.Console~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Machine.Console [feature/Ok-Implementations +4 ~2 -1 !]> ]633;B
+PS>git add .
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Machine.Console~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Machine.Console [feature/Ok-Implementations +1 ~2 -0 | +3 ~0 -1 !]> ]633;B
+PS>git commit -am "Add Project reference and implementation"
+[feature/Ok-Implementations 9e95bac] Add Project reference and implementation
+ 7 files changed, 202 insertions(+), 7 deletions(-)
+ create mode 100644 TellerMachine/Docs/Coding/ReferenceLibrary.txt
+ create mode 100644 TellerMachine/Machine.Console/UserScreen.cs
+ delete mode 100644 TellerMachine/Machine.Shared/Class1.cs
+ create mode 100644 TellerMachine/Machine.Shared/MessageDisplay.cs
+ create mode 100644 TellerMachine/Machine.Shared/TransactionOptions.cs
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Machine.Console~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Machine.Console [feature/Ok-Implementations +0 ~1 -0 !]> ]633;B
+PS>git push
+fatal: The current branch feature/Ok-Implementations has no upstream branch.
+fatal: The current branch feature/Ok-Implementations has no upstream branch.
+To push the current branch and set the remote as upstream, use
+To push the current branch and set the remote as upstream, use
+
+
+    git push --set-upstream origin feature/Ok-Implementations
+    git push --set-upstream origin feature/Ok-Implementations
+
+
+To have this happen automatically for branches without a tracking
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+]633;D;1]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Machine.Console~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Machine.Console [feature/Ok-Implementations +0 ~1 -0 !]> ]633;B
+PS> git push --set-upstream origin feature/Ok-Implementations
+remote:
+remote: 
+remote: Create a pull request for 'feature/Ok-Implementations' on GitHub by visiting:
+remote: Create a pull request for 'feature/Ok-Implementations' on GitHub by visiting:        
+remote:      https://github.com/somlaw2133/skills-introduction-to-github/pull/new/feature/Ok-Implementations
+remote:      https://github.com/somlaw2133/skills-introduction-to-github/pull/new/feature/Ok-Implementations        
+remote:
+remote: 
+To https://github.com/somlaw2133/skills-introduction-to-github.git
+To https://github.com/somlaw2133/skills-introduction-to-github.git
+ * [new branch]      feature/Ok-Implementations -> feature/Ok-Implementations
+ * [new branch]      feature/Ok-Implementations -> feature/Ok-Implementations
+branch 'feature/Ok-Implementations' set up to track 'origin/feature/Ok-Implementations'.
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Machine.Console~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Machine.Console [feature/Ok-Implementations ≡ +0 ~1 -0 !]> ]633;B
+PS>Stop-Transcript
+**********************
+PowerShell transcript end
+End time: 20250321122244
+**********************
