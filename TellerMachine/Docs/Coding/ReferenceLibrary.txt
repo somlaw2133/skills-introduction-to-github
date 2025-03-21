@@ -130,3 +130,50 @@ no changes added to commit (use "git add" and/or "git commit -a")
 ]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Machine.Console~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Machine.Console [feature/Ok-Implementations +4 ~2 -1 !]> ]633;B
 PS>git add .
 ]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Machine.Console~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Machine.Console [feature/Ok-Implementations +1 ~2 -0 | +3 ~0 -1 !]> ]633;B
+PS>git commit -am "Add Project reference and implementation"
+[feature/Ok-Implementations 9e95bac] Add Project reference and implementation
+ 7 files changed, 202 insertions(+), 7 deletions(-)
+ create mode 100644 TellerMachine/Docs/Coding/ReferenceLibrary.txt
+ create mode 100644 TellerMachine/Machine.Console/UserScreen.cs
+ delete mode 100644 TellerMachine/Machine.Shared/Class1.cs
+ create mode 100644 TellerMachine/Machine.Shared/MessageDisplay.cs
+ create mode 100644 TellerMachine/Machine.Shared/TransactionOptions.cs
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Machine.Console~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Machine.Console [feature/Ok-Implementations +0 ~1 -0 !]> ]633;B
+PS>git push
+fatal: The current branch feature/Ok-Implementations has no upstream branch.
+fatal: The current branch feature/Ok-Implementations has no upstream branch.
+To push the current branch and set the remote as upstream, use
+To push the current branch and set the remote as upstream, use
+
+
+    git push --set-upstream origin feature/Ok-Implementations
+    git push --set-upstream origin feature/Ok-Implementations
+
+
+To have this happen automatically for branches without a tracking
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+]633;D;1]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Machine.Console~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Machine.Console [feature/Ok-Implementations +0 ~1 -0 !]> ]633;B
+PS> git push --set-upstream origin feature/Ok-Implementations
+remote:
+remote: 
+remote: Create a pull request for 'feature/Ok-Implementations' on GitHub by visiting:
+remote: Create a pull request for 'feature/Ok-Implementations' on GitHub by visiting:        
+remote:      https://github.com/somlaw2133/skills-introduction-to-github/pull/new/feature/Ok-Implementations
+remote:      https://github.com/somlaw2133/skills-introduction-to-github/pull/new/feature/Ok-Implementations        
+remote:
+remote: 
+To https://github.com/somlaw2133/skills-introduction-to-github.git
+To https://github.com/somlaw2133/skills-introduction-to-github.git
+ * [new branch]      feature/Ok-Implementations -> feature/Ok-Implementations
+ * [new branch]      feature/Ok-Implementations -> feature/Ok-Implementations
+branch 'feature/Ok-Implementations' set up to track 'origin/feature/Ok-Implementations'.
+]633;D;0]633;A]633;P;Cwd=/Users/tkareem/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Machine.Console~/Projects/Dotnet/Lawrence/skills-introduction-to-github/TellerMachine/Machine.Console [feature/Ok-Implementations ≡ +0 ~1 -0 !]> ]633;B
+PS>Stop-Transcript
+**********************
+PowerShell transcript end
+End time: 20250321122244
+**********************
